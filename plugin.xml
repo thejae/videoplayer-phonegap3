@@ -10,7 +10,7 @@ id="org.apache.cordova.videoplayer"
     <keywords>cordova,video,player</keywords>
 
     <js-module src="www/video.js" name="VideoPlayer">
-        <clobbers target="window.videoPlayer" />
+        <clobbers target="window.plugins.videoPlayer" />
     </js-module>
     
     <!-- android -->
